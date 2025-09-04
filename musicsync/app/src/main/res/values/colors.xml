@@ -1,0 +1,8 @@
+<resources>
+    <color name="purpleAccent">#9C27B0</color>
+    <color name="tealAccent">#1DE9B6</color>
+    <color name="backgroundDark">#121212</color>
+    <color name="surfaceDark">#1E1E1E</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B0B0B0</color>
+</resources>

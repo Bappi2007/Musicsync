@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backgroundDark"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Join Session"
+        android:textColor="@color:tealAccent"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvAvailableSessions"
+        android:text="Searching for sessions..."
+        android:textColor="@color:textSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:text="Join"
+        android:backgroundTint="@color/purpleAccent"
+        android:textColor="@color/textPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/tvSongNameGuest"
+        android:text="No song playing"
+        android:textColor="@color:textSecondary"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/btnPlayGuest"
+            android:text="Play"
+            android:backgroundTint="@color:tealAccent"
+            android:textColor="@color:textPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/btnPauseGuest"
+            android:text="Pause"
+            android:backgroundTint="@color:purpleAccent"
+            android:textColor="@color:textPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:enabled="false"/>
+    </LinearLayout>
+</LinearLayout>
